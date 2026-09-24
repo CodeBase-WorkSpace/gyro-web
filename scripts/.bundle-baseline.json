@@ -1,0 +1,296 @@
+{
+  "/fa/tools/bmr-calculator": {
+    "route": "/fa/tools/bmr-calculator",
+    "chunks": 17,
+    "raw": 838095,
+    "gz": 255919,
+    "html": 48866
+  },
+  "/fa/tools/calorie-calculator": {
+    "route": "/fa/tools/calorie-calculator",
+    "chunks": 17,
+    "raw": 838095,
+    "gz": 255919,
+    "html": 53654
+  },
+  "/fa/tools/macro-calculator": {
+    "route": "/fa/tools/macro-calculator",
+    "chunks": 17,
+    "raw": 838095,
+    "gz": 255919,
+    "html": 50897
+  },
+  "/fa/tools/tdee-calculator": {
+    "route": "/fa/tools/tdee-calculator",
+    "chunks": 17,
+    "raw": 838095,
+    "gz": 255919,
+    "html": 50241
+  },
+  "/fa/guides/calorie-deficit": {
+    "route": "/fa/guides/calorie-deficit",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 53329
+  },
+  "/fa/guides/how-to-count-calories": {
+    "route": "/fa/guides/how-to-count-calories",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 52414
+  },
+  "/fa/guides/track-persian-foods": {
+    "route": "/fa/guides/track-persian-foods",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 53183
+  },
+  "/fa/guides/what-are-macros": {
+    "route": "/fa/guides/what-are-macros",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 49638
+  },
+  "/fa/guides/what-is-bmr": {
+    "route": "/fa/guides/what-is-bmr",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 49274
+  },
+  "/fa/guides": {
+    "route": "/fa/guides",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 46620
+  },
+  "/fa/tools": {
+    "route": "/fa/tools",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 50591
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 46810
+  },
+  "/terms": {
+    "route": "/terms",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 48728
+  },
+  "/unauthorized": {
+    "route": "/unauthorized",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253457,
+    "html": 24063
+  },
+  "/contact": {
+    "route": "/contact",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 56242
+  },
+  "/fa/app/calorie-counter-iphone": {
+    "route": "/fa/app/calorie-counter-iphone",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 105355
+  },
+  "/fa/app/calorie-counter": {
+    "route": "/fa/app/calorie-counter",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 94390
+  },
+  "/fa/app/food-diary": {
+    "route": "/fa/app/food-diary",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 102351
+  },
+  "/fa/app/macro-tracker": {
+    "route": "/fa/app/macro-tracker",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 101740
+  },
+  "/fa/app/persian-calorie-counter": {
+    "route": "/fa/app/persian-calorie-counter",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 109565
+  },
+  "/fa/app": {
+    "route": "/fa/app",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 94102
+  },
+  "/fa/foods/adasi": {
+    "route": "/fa/foods/adasi",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 64982
+  },
+  "/fa/foods/berenj-pokhteh": {
+    "route": "/fa/foods/berenj-pokhteh",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 64994
+  },
+  "/fa/foods/ghormeh-sabzi": {
+    "route": "/fa/foods/ghormeh-sabzi",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 65312
+  },
+  "/fa/foods/kashk": {
+    "route": "/fa/foods/kashk",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 66878
+  },
+  "/fa/foods/kebab-koobideh": {
+    "route": "/fa/foods/kebab-koobideh",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 65193
+  },
+  "/fa/foods/mast": {
+    "route": "/fa/foods/mast",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 62288
+  },
+  "/fa/foods/mooz": {
+    "route": "/fa/foods/mooz",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 61799
+  },
+  "/fa/foods/morgh": {
+    "route": "/fa/foods/morgh",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 64388
+  },
+  "/fa/foods/nan-barbari": {
+    "route": "/fa/foods/nan-barbari",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 67214
+  },
+  "/fa/foods/nan-sangak": {
+    "route": "/fa/foods/nan-sangak",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 63139
+  },
+  "/fa/foods/noon-lavash": {
+    "route": "/fa/foods/noon-lavash",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 62436
+  },
+  "/fa/foods/panir-feta": {
+    "route": "/fa/foods/panir-feta",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 66763
+  },
+  "/fa/foods/shir-bedoon-charb": {
+    "route": "/fa/foods/shir-bedoon-charb",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 67297
+  },
+  "/fa/foods/shir-porcharb": {
+    "route": "/fa/foods/shir-porcharb",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 66997
+  },
+  "/fa/foods/tokhm-morgh": {
+    "route": "/fa/foods/tokhm-morgh",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 64636
+  },
+  "/fa/foods": {
+    "route": "/fa/foods",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 68716
+  },
+  "/fa": {
+    "route": "/fa",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 136346
+  },
+  "/": {
+    "route": "/",
+    "chunks": 17,
+    "raw": 831225,
+    "gz": 253455,
+    "html": 134356
+  },
+  "/_not-found": {
+    "route": "/_not-found",
+    "chunks": 16,
+    "raw": 807775,
+    "gz": 245053,
+    "html": 17446
+  },
+  "/auth": {
+    "route": "/auth",
+    "chunks": 16,
+    "raw": 807775,
+    "gz": 245053,
+    "html": 16229
+  },
+  "/_global-error": {
+    "route": "/_global-error",
+    "chunks": 9,
+    "raw": 627442,
+    "gz": 186531,
+    "html": 9366
+  }
+}

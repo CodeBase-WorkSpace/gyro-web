@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d1513" />
+    <title>در حال اتصال به جیرو</title>
+    <style>
+      :root { color-scheme: dark; font-family: Vazirmatn, system-ui, sans-serif; background: #0d1513; color: #f4fbf7; }
+      body { min-height: 100svh; margin: 0; display: grid; place-items: center; padding: 24px; box-sizing: border-box; }
+      main { width: min(100%, 420px); border: 1px solid #294238; border-radius: 24px; background: #14221d; padding: 28px; text-align: center; box-shadow: 0 24px 64px rgb(0 0 0 / 30%); }
+      .mark { width: 48px; height: 48px; margin: 0 auto 18px; border: 4px solid #72d19a; border-inline-end-color: transparent; border-radius: 50%; animation: spin 1s linear infinite; }
+      h1 { margin: 0; font-size: 1.25rem; } p { color: #bfd1c8; line-height: 1.8; } button { display: none; width: 100%; border: 0; border-radius: 14px; padding: 13px 16px; background: #72d19a; color: #0d1513; font: inherit; font-weight: 700; cursor: pointer; }
+      button:focus-visible { outline: 3px solid #fff; outline-offset: 3px; } @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark" aria-hidden="true"></div>
+      <h1>ارتباط با جیرو برقرار نشد</h1>
+      <p id="status" role="status">در حال تلاش دوباره برای باز کردن برنامه…</p>
+      <p>اطلاعات ذخیره‌شده شما تغییری نکرده است. جیرو برای ثبت و به‌روزرسانی اطلاعات به اتصال اینترنت نیاز دارد.</p>
+      <button id="retry" type="button">تلاش دوباره</button>
+    </main>
+    <script>
+      const storageKey = "gyro-pwa-startup-recovery-attempt";
+      const delays = [1500, 3000, 6000];
+      const previousAttempts = Number(sessionStorage.getItem(storageKey) || "0");
+      const retryButton = document.getElementById("retry");
+      const status = document.getElementById("status");
+
+      function retry() {
+        sessionStorage.setItem(storageKey, String(previousAttempts + 1));
+        window.location.reload();
+      }
+
+      retryButton.addEventListener("click", retry);
+      if (previousAttempts < delays.length) {
+        const delay = delays[previousAttempts];
+        status.textContent = `تلاش دوباره تا ${Math.ceil(delay / 1000)} ثانیه دیگر…`;
+        window.setTimeout(retry, delay);
+      } else {
+        status.textContent = "اتصال هنوز برقرار نشده است. هر زمان آماده بودید دوباره تلاش کنید.";
+        retryButton.style.display = "block";
+      }
+    </script>
+  </body>
+</html>

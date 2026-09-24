@@ -1,0 +1,36 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": false,
+    "incremental": false,
+    "isolatedModules": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "outDir": ".test-build",
+    "rootDir": ".",
+    "sourceMap": false,
+    "types": ["node"]
+  },
+  "include": [
+    "lib/api/**/*.ts",
+    "lib/charts/**/*.ts",
+    "lib/dom/**/*.ts",
+    "lib/foods/**/*.ts",
+    "lib/goals/**/*.ts",
+    "lib/profile/**/*.ts",
+    "lib/pwa/**/*.ts",
+    "lib/seo/**/*.ts",
+    "lib/subscription/**/*.ts",
+    "lib/auth/errors.ts",
+    "lib/auth/logout.ts",
+    "lib/auth/redirects.ts",
+    "lib/auth/refresh-core.ts",
+    "lib/auth/session-core.ts",
+    "lib/analytics.ts",
+    "lib/format.ts",
+    "tests/**/*.test.ts"
+  ],
+  "exclude": ["node_modules", ".next", ".test-build"]
+}
